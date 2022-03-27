@@ -1,6 +1,5 @@
-# Solidly - ve(3,3)
-
-## What is Solidly
+# Printy.fi 
+## What is Printy
 - [Solidly Smart Contracts](https://github.com/andrecronje/solidly)
 - [ve(3,3)](https://andrecronje.medium.com/ve-3-3-44466eaa088b)
 - [ve(3,3) Ouroboros: Part 1 - Fee Distribution](https://andrecronje.medium.com/ve-3-3-ouroboros-part-1-fee-distribution-5dcf131dc82e)
@@ -10,7 +9,7 @@
 
 ## Deployment
 - [Testnet](https://testnet.solidly.exchange/)
-- [Live](https://solidly.exchange/)
+- [Live](https://printy.fi/)
 
 ## Getting started
 - Make sure to have nodejs installed. This app is built using [Next.js](https://nextjs.org/learn/basics/create-nextjs-app) and [react](https://reactjs.org/docs/getting-started.html).
