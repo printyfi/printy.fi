@@ -1,0 +1,10 @@
+node_modules/
+public/
+src/styles
+src/
+*.css
+*.module.css
+.next/
+.eslintrc.js
+next.config.js
+
