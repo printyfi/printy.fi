@@ -14,7 +14,7 @@ export const VE_TOKEN_DECIMALS = 18
 export const VE_TOKEN_LOGO = 'https://fakepunk.xyz/logo192.png'
 export const VE_TOKEN_ABI = abis.veTokenABI
 
-export const WAVAX_ADDRESS = '0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7'
+export const WAVAX_ADDRESS = '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7'
 export const WAVAX_NAME = 'Wrapped Avax'
 export const WAVAX_SYMBOL = 'WAVAX'
 export const WAVAX_DECIMALS = 18
@@ -29,7 +29,7 @@ export const AVAX_LOGO = 'https://assets.coingecko.com/coins/images/12559/small/
 export const FACTORY_ADDRESS = '0xc62Ca231Cd2b0c530C622269dA02374134511a36'
 export const FACTORY_ABI = abis.factoryABI
 
-export const ROUTER_ADDRESS = '0x6A8f98d7e34Fd214B428BFc68c9309Ea3C4Fc7F1'
+export const ROUTER_ADDRESS = '0xDc72882909252E133a4A46eFB135b3B145366eba'
 export const ROUTER_ABI = abis.routerABI
 
 export const VE_DIST_ADDRESS = '0xFf58CD1a1394A19Efa33F83545081459dfE2dA44'
