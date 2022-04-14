@@ -38,7 +38,7 @@ export const VE_DIST_ABI = abis.veDistABI
 export const VOTER_ADDRESS = '0x47a3931486a73314D367e4dE2B2FfaC83fa4B81E'
 export const VOTER_ABI = abis.voterABI
 
-export const LIBRARY_ADDRESS = '0x20b1E9bF64b9644ed5b9606559bf58fA6798a077'
+export const LIBRARY_ADDRESS = '0x1DC44EC22EF22C02cf1Cef1D72Fd915572c153bA'
 export const LIBRARY_ABI = abis.solidlyLibraryABI
 
 export const ERC20_ABI = abis.erc20ABI
