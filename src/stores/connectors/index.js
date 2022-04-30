@@ -3,17 +3,17 @@ import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 import { WalletLinkConnector } from '@web3-react/walletlink-connector'
 import { NetworkConnector } from '@web3-react/network-connector'
 
-const POLLING_INTERVAL = 22000
+const POLLING_INTERVAL = 12000
 const RPC_URLS = {
   43114: `https://api.avax.network/ext/bc/C/rpc`,
-  4002: 'https://rpc.testnet.fantom.network',
+  11111: 'https://subnets.avax.network/wagmi/wagmi-chain-testnet/rpc',
 }
 
 let obj = {}
 if (process.env.NEXT_PUBLIC_CHAINID == 43114) {
   obj = { 43114: RPC_URLS[43114] }
 } else {
-  obj = { 4002: RPC_URLS[4002] }
+  obj = { 11111: RPC_URLS[11111] }
 }
 
 export const network = new NetworkConnector({ urls: obj });
@@ -25,7 +25,7 @@ export const injected = new InjectedConnector({
 export const walletconnect = new WalletConnectConnector({
   rpc: {
     43114: RPC_URLS[43114],
-    4002: RPC_URLS[4002],
+    11111: RPC_URLS[11111],
   },
   chainId: parseInt(process.env.NEXT_PUBLIC_CHAINID),
   bridge: 'https://bridge.walletconnect.org',

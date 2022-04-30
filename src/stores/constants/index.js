@@ -3,14 +3,14 @@ import * as contractsTestnet from './contractsTestnet'
 import * as contracts from './contracts'
 import * as actions from './actions'
 
-let isTestnet = process.env.NEXT_PUBLIC_CHAINID == 4002
+let isTestnet = process.env.NEXT_PUBLIC_CHAINID == "11111"
 
 // URLS
 let scan = 'https://snowtrace.io/'
 let cont = contracts
 
 if (isTestnet) {
-  scan = 'https://testnet.ftmscan.com/'
+  scan = 'https://subnets.avax.network/wagmi/wagmi-chain-testnet/explorer/'
   cont = contractsTestnet
 }
 

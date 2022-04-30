@@ -1,4 +1,9 @@
 import { ACTIONS, CONTRACTS, FALLBACK_RPC } from './constants'
+//import {
+//  Multicall,
+//  ContractCallResults,
+//ContractCallContext,
+//} from 'ethereum-multicall';
 import Multicall from '@dopex-io/web3-multicall'
 
 import { injected, walletconnect, walletlink, network } from './connectors'
@@ -22,12 +27,12 @@ class Store {
         WalletLink: walletlink,
       },
       gasPrices: {
-        standard: 90,
-        fast: 100,
-        instant: 130,
+        standard: 38,
+        fast: 38,
+        instant: 41,
       },
-      gasSpeed: 'fast',
-      currentBlock: 12406241,
+      gasSpeed: 'instant',
+      currentBlock: 12684992,
     }
 
     dispatcher.register(

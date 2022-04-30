@@ -1,15 +1,15 @@
 import abis from '../abis'
 
-export const GOV_TOKEN_ADDRESS = '0x888365Cef16Baf8354Bf1A9A88e548555b7348bF'
-export const GOV_TOKEN_NAME = 'Printy'
+export const GOV_TOKEN_ADDRESS = '0x6902a8ecF99a732e5a73491Afc14e5E135eE4234'
+export const GOV_TOKEN_NAME = 'PrintyV2'
 export const GOV_TOKEN_SYMBOL = 'PRINT'
 export const GOV_TOKEN_DECIMALS = 18
 export const GOV_TOKEN_LOGO = 'https://fakepunk.xyz/logo192.png'
 export const GOV_TOKEN_ABI = abis.tokenABI
 
-export const VE_TOKEN_ADDRESS = '0x3197713056b8E7358a31E0EC22A1450a6ad18b7d'
-export const VE_TOKEN_NAME = 'veNFT'
-export const VE_TOKEN_SYMBOL = 'veNFT'
+export const VE_TOKEN_ADDRESS = '0x91E95D75354eC965B67165Cc8DF8249b7B082D3C'
+export const VE_TOKEN_NAME = 'vePrintyNFT'
+export const VE_TOKEN_SYMBOL = 'vePRINTNFT'
 export const VE_TOKEN_DECIMALS = 18
 export const VE_TOKEN_LOGO = 'https://fakepunk.xyz/logo192.png'
 export const VE_TOKEN_ABI = abis.veTokenABI
@@ -32,10 +32,10 @@ export const FACTORY_ABI = abis.factoryABI
 export const ROUTER_ADDRESS = '0xDc72882909252E133a4A46eFB135b3B145366eba'
 export const ROUTER_ABI = abis.routerABI
 
-export const VE_DIST_ADDRESS = '0xFf58CD1a1394A19Efa33F83545081459dfE2dA44'
+export const VE_DIST_ADDRESS = '0x80Ce36E262876aB217c676cfdbB1D953BbB92511'
 export const VE_DIST_ABI = abis.veDistABI
 
-export const VOTER_ADDRESS = '0x47a3931486a73314D367e4dE2B2FfaC83fa4B81E'
+export const VOTER_ADDRESS = '0x580770a33B87B209C5a9E1b4F0129f49a8dEab48'
 export const VOTER_ABI = abis.voterABI
 
 export const LIBRARY_ADDRESS = '0x1DC44EC22EF22C02cf1Cef1D72Fd915572c153bA'
