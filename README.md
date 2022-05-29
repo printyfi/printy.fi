@@ -1,4 +1,4 @@
-# Printy.fi 
+# Printyfinance 
 ## What is Printy
 - [Solidly Smart Contracts](https://github.com/andrecronje/solidly)
 - [ve(3,3)](https://andrecronje.medium.com/ve-3-3-44466eaa088b)
