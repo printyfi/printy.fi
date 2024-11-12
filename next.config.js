@@ -19,7 +19,7 @@ module.exports = {
 
 
 //process.env.NEXT_PUBLIC_API = "https://localhost:3001"
-process.env.NEXT_PUBLIC_API = "https://api.printyfinance.com:3005"
+process.env.NEXT_PUBLIC_API = "https://api.printyfinance.com:3001"
 
 //REDIS_HOST=""
 //REDIS_PORT=""
