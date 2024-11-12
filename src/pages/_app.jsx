@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react' 
 import PropTypes from 'prop-types'
 import Head from 'next/head'
 import Script from 'next/script'
